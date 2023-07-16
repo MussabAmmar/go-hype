@@ -1,0 +1,1 @@
+const SUPABASE_PASSWORD = 'jER1EygnhR3Xjz3L';
