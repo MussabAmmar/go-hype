@@ -1,11 +1,12 @@
 import Layout from "@/components/layout/Layout";
 import React, { useState } from "react";
 import { InstagramLogo, FacebookLogo, TiktokLogo } from "@phosphor-icons/react";
+import PrevWork from "@/components/common/PrevWork";
 
 const UserProfile = () => {
   return (
     <Layout>
-      <div className="h-full pt-10">
+      <div className="pt-10">
         <div className="flex items-center space-x-5">
           <div className="">
             <img
@@ -68,7 +69,12 @@ const UserProfile = () => {
         </div>
         <div className="mt-10">
           <h2 className="text-white font-medium">Past Work:</h2>
-          <div></div>
+          <div className="flex flex-nowrap overflow-x-scroll max-w-full">
+            <PrevWork imageSrc={"https://placehold.co/100"} />
+            <PrevWork imageSrc={"https://placehold.co/100"} />
+            <PrevWork imageSrc={"https://placehold.co/100"} />
+            <PrevWork imageSrc={"https://placehold.co/100"} />
+          </div>
         </div>
       </div>
     </Layout>
