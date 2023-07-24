@@ -7,7 +7,7 @@ const UserProfile = () => {
   return (
     <Layout>
       <div className="pt-10">
-        <div className="flex items-center space-x-5">
+        {/* <div className="flex items-center space-x-5">
           <div className="">
             <img
               className="rounded-full"
@@ -17,7 +17,7 @@ const UserProfile = () => {
           </div>
           <div className="flex-grow">
             <h1 className="text-3xl text-white font-bold">Jess Bailey</h1>
-            <span className="text-sm text-gray-300 ">@jessbailey</span>
+            <span className="text-sm text-gray-300 ">"@jessbailey</span>
           </div>
           <button className="text-white font-medium bg-green-600 hover:bg-green-700 rounded-lg py-2 px-4">
             Edit my profile
@@ -75,7 +75,7 @@ const UserProfile = () => {
             <PrevWork imageSrc={"https://placehold.co/100"} />
             <PrevWork imageSrc={"https://placehold.co/100"} />
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
