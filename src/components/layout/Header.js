@@ -15,9 +15,9 @@ const Header = () => {
         <nav>
           {/* Navigation bar */}
           <ul className="flex">
-            {navItems.map((item) => {
+            {navItems.map((item, index) => {
               return (
-                <div className="px-4">
+                <div key={index} className="px-4">
                   <li className="font-medium px-4 py-2">{item}</li>
                 </div>
               );

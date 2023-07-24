@@ -71,7 +71,7 @@ const UserEditForm = () => {
       >
         <input {...getInputProps()} />
         <p className="text-white">
-          Drag 'n' drop a profile image here, or click to select an image
+          Drag and drop a profile image here, or click to select an image
         </p>
       </div>
       {acceptedFiles.length > 0 && (

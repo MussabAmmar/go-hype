@@ -50,6 +50,7 @@ export default function Home() {
         <div className="relative w-full h-[400px]">
           <Image
             src={"/image2.jpg"}
+            alt="get a quote"
             fill
             sizes="(max-width: 768px) 100vw"
             className="object-cover opacity-50"
