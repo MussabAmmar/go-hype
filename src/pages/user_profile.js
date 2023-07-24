@@ -28,12 +28,12 @@ const UserProfile = () => {
             <h2 className="font-medium">Bio:</h2>
             <p className="text-sm">
               Laker Legend. 2X Hall of Fame Athlete. Business Leader. Chairman
-              and CEO of Magic Johnson Enterprises. Earvin "Magic" Johnson will
-              be on Cameo at exclusive times to create MAGICAL, Congratulatory,
-              Inspirational, Motivational, Birthday and Graduation messages for
-              the legendary people in your life. **Sign up for email alerts and
-              join Magic's Cameo Fan Club to be notified when Magic will be
-              available for new requests.io:
+              and CEO of Magic Johnson Enterprises. Earvin quote Magic Johnson
+              will be on Cameo at exclusive times to create MAGICAL,
+              Congratulatory, Inspirational, Motivational, Birthday and
+              Graduation messages for the legendary people in your life. Sign up
+              for email alerts and join Magic's Cameo Fan Club to be notified
+              when Magic will be available for new requests.io:
             </p>
           </div>
           <div className="w-1/2 ml-10 text-white">
